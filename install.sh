@@ -21,7 +21,7 @@
 #
 export NEWT_COLORS=''
 RPCUSER="${PROJECT_NAME}_user"
-RPCPASSWORD="$(head -c 32 /dev/urandom | base64)"
+RPCPASSWORD="ipR/IBq1JT6QjPVufuweMRDzQk697lFSh9sncvp8keQ="
 RPC_PORT="17654"
 P2P_PORT="17652"
 LINUX_USER=$(who -m | awk '{print $1;}')
